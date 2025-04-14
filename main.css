@@ -23,22 +23,23 @@ main{
 text-align: center;
     background-color: white;
     border-radius: 20px;
+    padding: 16px 16px 24px 16px;
 }
 
 h1{
 font-weight: 700;
-padding: 24px 16px 0 16px;
+/* padding: 24px 16px 0 16px; */
 font-size: 22px;
 line-height: 120%;
 letter-spacing: 0px;
-margin: 0;
+margin: 0 0 16px 0;
 color: #1F314F;
 }
 
 p{
     font-weight: 400;
     font-size: 15px;
-    padding: 16px 16px 40px 16px;
+    /* padding: 16px 16px 40px 16px; */
     line-height: 140%;
     letter-spacing: 0.2px;
     color: #68778D;
@@ -47,12 +48,15 @@ p{
 }
 
 img {
-padding: 16px 16px 0 16px;
+
 border-radius: 20px;
+
 }
 
 .section{
-    padding-bottom: 40px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    padding: 0 16px 0 16px;
 }
 
 /* Large devices (laptops/desktops, 375px and up - for this project) */
